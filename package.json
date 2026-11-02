@@ -1,0 +1,26 @@
+{
+  "name": "notes-app-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0",
+    "eslint-config-dicodingacademy": "^0.9.5",
+    "globals": "^17.13.0",
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "joi": "^18.3.1"
+  }
+}
